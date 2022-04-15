@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: darkgrey;
+}
+ 
+/* ----------------NAV------------------------- */
+
+.Navegation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 100%;
+} img {
+    width: 180px;
+    height: 60px;
+} a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+} ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+} li {
+    font-size: large;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* ----------------HOME------------------------- */
+
+.Home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    color: white;
+    font-size: large;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    background-image: url(/Imagens/paisagem-2C.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* ----------------ABOUT------------------------- */
+
+.Main-Text {
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+}
+.About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+} 
+div > img {
+    width: 60px;
+}
+.Cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+    width: 80%;
+}
+.Card {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 200px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* ----------------CONTACT------------------------- */
+.Contact {
+    display: flex;
+    background-color: rgb(90, 90, 90);
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 0 30px 0;
+}
+.Form {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 15px;
+    justify-content: center;
+    border: 5px solid black;
+    border-radius: 30px;
+    width: 90%;
+    height: 200px;
+    font-family: 'Oswald', sans-serif;
+}
+input {
+    width: auto;
+}
+
+
+/* ----------------FOOTER------------------------- */
+footer{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+.footerRandom {
+    font-family: 'Oswald', sans-serif;
+    color: #ffff;
+    font-size: 14px;
+    text-align: center;
+} .footerTitle {
+    font-family: 'Oswald', sans-serif;
+    color: #d10924;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* ----------------BUTTON BACK TO TOP------------------------- */
+#back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border: 3px solid black;
+    border-radius: 30px;
+  } button > img {
+      width: 30px;
+      height: 30px;
+  }
